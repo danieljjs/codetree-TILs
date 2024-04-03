@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c;
+    int a,b;
     scanf("%d %d",&a,&b);
-    c=a+b;
-    printf("%d %d",c,c+b);
+    a+=b;
+    b+=a;
+    printf("%d %d",a,b);
     // 여기에 코드를 작성해주세요.
     return 0;
 }

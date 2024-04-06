@@ -7,7 +7,7 @@ int main() {
         if(b>=95)
             printf("100000");
         else if (b>=90)
-            printf("500000");
+            printf("50000");
         else
             printf("0");
     else

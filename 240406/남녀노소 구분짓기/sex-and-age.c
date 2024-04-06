@@ -9,7 +9,7 @@ int main() {
         else
             printf("BOY");
     else
-        if(age<=19)
+        if(age>=19)
             printf("WOMAN");
         else 
             printf("GIRL");

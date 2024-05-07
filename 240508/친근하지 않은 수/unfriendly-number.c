@@ -2,7 +2,6 @@
 
 int main() {
     int n, cnt = 0;
-	int prod = 1;
 
     scanf("%d", &n);
 	for (int i = 1; i <= n; i++) {

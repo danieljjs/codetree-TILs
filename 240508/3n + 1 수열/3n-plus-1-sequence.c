@@ -11,12 +11,12 @@ int main() {
 		else {
 			n = n * 3 + 1;
 		}
-        cnt++;
         if (n == 1){
-            printf("%d",cnt);
             break;
         }
+        cnt++;
 	}
+    printf("%d",cnt);
     // 여기에 코드를 작성해주세요.
     return 0;
 }
